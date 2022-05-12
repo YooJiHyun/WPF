@@ -12,7 +12,7 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="37,45,0,0" TextWrapping="Wrap" Text="Sender" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="37,85,0,0" TextWrapping="Wrap" Text="Message" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="15" Margin="129,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="614"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="304" Margin="129,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="614"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="292" Margin="129,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="614"/>
 
     </Grid>
 </Page>
