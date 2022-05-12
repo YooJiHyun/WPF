@@ -12,6 +12,25 @@
         <ProgressBar Value="50" Width="60" Height="20"/>
         <Slider Value="5" Width="60"/>
         <PasswordBox Password="Secret"/>
+        <Button Padding="10">
+            <MediaElement Source="Properties/Resource/test.mp4" Height="50"/>
+        </Button>
 
+        <Button Width="100">
+            <CheckBox>
+                <TextBlock Text="Avec un retour a la ligne" TextWrapping="Wrap"/>
+            </CheckBox>
+        </Button>
+        <Border Background="Orange" CornerRadius="10" Padding="5">
+            <Button Content="Un Bouton"/>
+        </Border>
+
+        <Border Background="Blue" CornerRadius="10, 0, 10, 0" Padding="5">
+            <Button Content="Un Bouton"/>
+        </Border>
+
+        <ScrollViewer Height="100" Width="100" HorizontalScrollBarVisibility="Auto">
+            <MediaElement Source="Properties/Resource/test.mp4" Stretch="None"/>
+        </ScrollViewer>
     </StackPanel>
 </Window>
