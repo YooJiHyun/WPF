@@ -16,27 +16,23 @@ using System.Windows.Shapes;
 namespace BikeShop
 {
     /// <summary>
-    /// Menu.xaml에 대한 상호 작용 논리
+    /// Discussion.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Menu : Page
+    public partial class Discussion : Page
     {
-        public Menu()
+        public Discussion()
         {
             InitializeComponent();
         }
 
-        private void Button_Copy1_Click(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            NavigationService.Navigate(
-                new Uri("/Contact.xaml", UriKind.Relative)
-            );
+
         }
 
-        private void Button_Copy_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(
-                new Uri("/Discussion.xaml", UriKind.Relative)
-            );
+
         }
     }
 }

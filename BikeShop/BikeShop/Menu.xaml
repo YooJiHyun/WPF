@@ -10,7 +10,7 @@
 
     <Grid>
         <Button x:Name="button" Content="Products" Margin="36,150,668,0" VerticalAlignment="Top" Height="96"/>
-        <Button x:Name="button_Copy" Content="Live support" HorizontalAlignment="Left" Margin="161,150,0,0" VerticalAlignment="Top" Width="96" Height="96"/>
+        <Button x:Name="button_Copy" Content="Live support" HorizontalAlignment="Left" Margin="161,150,0,0" VerticalAlignment="Top" Width="96" Height="96" Click="Button_Copy_Click"/>
         <Button x:Name="button_Copy1" Content="Email Support" HorizontalAlignment="Left" Margin="289,150,0,0" VerticalAlignment="Top" Width="96" Height="96" Click="Button_Copy1_Click"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="36,282,0,0" TextWrapping="Wrap" Text="Adventure Works" VerticalAlignment="Top" Height="40" Width="349" FontSize="20" FontWeight="Bold" TextAlignment="Center" FontStyle="Italic"/>
 
