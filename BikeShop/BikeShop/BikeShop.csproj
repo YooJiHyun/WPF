@@ -59,7 +59,11 @@
     <Compile Include="ProductManagement.xaml.cs">
       <DependentUpon>ProductManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ProductManagementMVVMViewModel.cs" />
     <Compile Include="ProductsFactory.cs" />
+    <Compile Include="ProductsManagementMVVM.xaml.cs">
+      <DependentUpon>ProductsManagementMVVM.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Talk.cs" />
     <Page Include="Contact.xaml">
       <SubType>Designer</SubType>
@@ -92,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ProductManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProductsManagementMVVM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
